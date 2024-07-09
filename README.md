@@ -1,9 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/D1pZhJxu)
+![image (5)](https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/766a163e-fdb0-4805-a226-7d9085128844)![image (4)](https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/2c57f568-4d3a-4e79-82d2-22540e427a14)[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/D1pZhJxu)
 # Title (Please modify the title)
 
 ## Team
 
-| ![전은지](https://ibb.co/PFS8KmC) | ![이수형](https://ibb.co/xfBZ2vP) | ![서정민](https://ibb.co/rkdXbzx) | ![이지윤](https://ibb.co/zRtwmXW) | ![이승미](https://ibb.co/R9dkmnS) |
+| ![광핑구](https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/cc00f390-3789-4a05-8ace-035760a1df3f) | ![Uploading image (4).png…]() | ![Uploading image (5).png…]() | ![image (6)](https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/22fe8a0c-78a8-44b1-ae09-071154098ed4)
+ | ![image (7)](https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/1b5b877c-eece-4e50-b9a0-a8ec43c36a88) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 |            [전은지](https://github.com/UpstageAILab)             |            [이수형](https://github.com/UpstageAILab)             |            [서정민](https://github.com/UpstageAILab)             |            [이지윤](https://github.com/UpstageAILab)             |            [이승미](https://github.com/UpstageAILab)             |
 |                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
