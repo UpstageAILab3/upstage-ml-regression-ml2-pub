@@ -3,11 +3,11 @@
 ## Team
 <table>
   <tr>
-    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/cc00f390-3789-4a05-8ace-035760a1df3f" width="100" ></td>
-    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/a9f6008c-660a-49ae-9511-a2a89d38617e" width="100" ></td>
-    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/7862e894-5fc7-416d-a6eb-8d319078bd58" width="100" ></td>
-    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/22fe8a0c-78a8-44b1-ae09-071154098ed4" width="100" ></td>
-    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/1b5b877c-eece-4e50-b9a0-a8ec43c36a88" width="100" ></td>
+    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/cc00f390-3789-4a05-8ace-035760a1df3f" width="200" ></td>
+    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/a9f6008c-660a-49ae-9511-a2a89d38617e" width="200" ></td>
+    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/7862e894-5fc7-416d-a6eb-8d319078bd58" width="200" ></td>
+    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/22fe8a0c-78a8-44b1-ae09-071154098ed4" width="200" ></td>
+    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/1b5b877c-eece-4e50-b9a0-a8ec43c36a88" width="200" ></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/UpstageAILab">전은지</a><br>팀장, 담당 역할</td>
