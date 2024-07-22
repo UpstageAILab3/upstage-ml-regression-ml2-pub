@@ -8,18 +8,18 @@
 
 <table>
   <tr>
-    <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/cc00f390-3789-4a05-8ace-035760a1df3f" width="200" ></td>
+    <td ><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/cc00f390-3789-4a05-8ace-035760a1df3f" width="200" ></td>
     <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/a9f6008c-660a-49ae-9511-a2a89d38617e" width="200" ></td>
     <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/7862e894-5fc7-416d-a6eb-8d319078bd58" width="200" ></td>
     <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/22fe8a0c-78a8-44b1-ae09-071154098ed4" width="200" ></td>
     <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/1b5b877c-eece-4e50-b9a0-a8ec43c36a88" width="200" ></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/UpstageAILab">전은지</a><br>팀장, 진행확인, 자료수집, 데이터 EDA, 데이터수집, 모델제안 및 이후결정</td>
-    <td align="center"><a href="https://github.com/UpstageAILab">이수형</a><br>데이터수집, Feature Slection, 데이터 EDA, 모델 엔지니어링</td>
-    <td align="center"><a href="https://github.com/UpstageAILab">서정민</a><br>데이터수집, 데이터 전처리, ,Feature Selection </td>
-    <td align="center"><a href="https://github.com/UpstageAILab">이지윤</a><br>데이터수집, 파생 데이터 생성, 데이터 전처리</td>
-    <td align="center"><a href="https://github.com/UpstageAILab">이승미</a><br>데이터수집, 데이터 전처리Feature Slection, 데이터 EDA</td>
+    <td align="center"><a href="https://github.com/UpstageAILab">전은지</a><br class="small-text">팀장, 진행확인, 자료수집, 데이터 EDA, 데이터수집, 모델제안 및 이후결정</td>
+    <td align="center"><a href="https://github.com/UpstageAILab">이수형</a><br class="small-text">데이터수집, Feature Slection, 데이터 EDA, 모델 엔지니어링</td>
+    <td align="center"><a href="https://github.com/UpstageAILab">서정민</a><br class="small-text">데이터수집, 데이터 전처리, ,Feature Selection </td>
+    <td align="center"><a href="https://github.com/UpstageAILab">이지윤</a><br class="small-text">데이터수집, 파생 데이터 생성, 데이터 전처리</td>
+    <td align="center"><a href="https://github.com/UpstageAILab">이승미</a><br class="small-text">데이터수집, 데이터 전처리Feature Slection, 데이터 EDA</td>
   </tr>
 </table>
 
@@ -111,7 +111,8 @@ $$
 
 ### Leader Board
 - **Leaderboard [final]**
-![1](https://github.com/user-attachments/assets/5d0544b3-78d1-4d53-9cd6-0bdab084bcad)
+![1](https://github.com/user-attachments/assets/58316167-ec0c-4d48-8006-9622d224a10c)
+
 
 **순위 및 점수**: 최종 결과 12등 RMSE: 28295.7401
 
