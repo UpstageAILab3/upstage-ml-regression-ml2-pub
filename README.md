@@ -75,7 +75,13 @@ $$
 
 ### Feature Engineering
 - 기존 데이터에서 파생 변수 생성
+- ![스크린샷 2024-07-22 오전 11 17 50](https://github.com/user-attachments/assets/3aa8ad37-2884-4da4-956a-a71cf1256f73)
+- ![스크린샷 2024-07-22 오전 11 15 14](https://github.com/user-attachments/assets/a1d4c4e4-2edd-44e5-9ed2-efed822185bd)
+- ![스크린샷 2024-07-22 오전 11 15 45](https://github.com/user-attachments/assets/ff2397e7-d7c6-4c67-9594-04927fe3cdc5)
+
 - 추가 데이터 사용
+- ![스크린샷 2024-07-22 오전 11 19 34](https://github.com/user-attachments/assets/35335d95-03ec-470b-a53b-57a919c09311)
+
 
 ## 4. Modeling
 
@@ -89,6 +95,12 @@ $$
 
 ### Modeling Process
 - 모델 학습 및 테스트 과정 설명
+- ![스크린샷 2024-07-22 오후 12 09 11](https://github.com/user-attachments/assets/1c3e786e-b70b-490e-a0e4-e0aa74d693a6)
+- ![스크린샷 2024-07-22 오전 10 46 23](https://github.com/user-attachments/assets/46687595-9603-437d-8584-2449b57f2fea)
+- ![스크린샷 2024-07-22 오전 10 46 54](https://github.com/user-attachments/assets/f7325b81-c6ba-4492-91d1-d2ed8c60d1bb)
+
+
+
 
 ## 5. Result
 
