@@ -18,73 +18,94 @@
   </tr>
 </table>
 
-## 1. Competiton Info
+## 1. Competition Info
 
 ### Overview
-
-- _Write competition information_
+서울시 아파트 실거래가 매매 데이터를 기반으로 아파트 가격을 예측하는 모델을 개발합니다. 정확하고 일반화된 모델을 통해 아파트 시장의 동향을 미리 예측하고, 부동산 관련 의사결정을 돕고 효율적인 거래를 촉진하는 것이 목표입니다.
 
 ### Timeline
-
-- ex) January 10, 2024 - Start Date
-- ex) February 10, 2024 - Final submission deadline
+- **July 09, 2024**: Start Date
+- **July 09 - 18, 2024**: Data Collection & Data EDA
+- **July 16 - 19, 2024**: Model Engineering
+- **July 19, 2024**: Final Submission Deadline
 
 ### Evaluation
+$$
+\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
+$$
 
-- _Write how to evaluate model_
+여기서:
+- \( n \)은 데이터 포인트의 총 개수입니다.
+- \( y_i \)는 실제 값입니다.
+- \( \hat{y}_i \)는 예측 값입니다.
 
-
-$$ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2} $$
-
-
+예측 값과 실제 값 간의 차이를 제곱한 후 평균을 내고, 그 평균의 제곱근을 구하여 계산합니다.
 
 ## 2. Components
 
 ### Directory
+- `./code/`: 모델 실행에 사용되는 코드 위치
+- `./code/eda/`: EDA에 사용된 코드 위치
+- `./code/models/`: 모델 학습 후 저장된 모델 위치
+- `./code/preprocessing/`: 전처리에 사용되는 코드 위치
+- `./data/`: 모든 데이터 전처리 후 합쳐진 데이터셋 위치
+- `./data/raw/`: 수집한 데이터의 원본 데이터 위치
 
-- _Insert your directory structure_
+## 3. Data Description
 
-## 3. Data descrption
-
-### Dataset overview
-
-- _Explain using data_
+### Dataset Overview
+- **첫 번째 데이터**: 국토교통부에서 제공하는 아파트 실거래가 데이터로, 아파트의 위치, 크기, 건축년도, 주변 시설 및 교통 편의성과 같은 다양한 특징들을 포함합니다. 데이터 크기는 1,118,822 x 52이며, 집값(Target)과 51개의 아파트 관련 변수를 제공합니다.
+- **두 번째 데이터**: 평가 데이터로, 최종 모델 성능 검증을 위해 사용되며, Target을 제외한 51개의 아파트 변수를 제공합니다.
+- **수집한 데이터**: GDP, 금리, 학원 수, 원생 수, 지하철 유동인구(승하차 수), 지하철 및 버스 정류장 좌표, 지하철 개통 날짜, 득표율, 초중고 좌표, 아파트 실거래 가격 지수, 경기 종합 지수
 
 ### EDA
+- 그래프로 데이터 정보 확인
+  - 전체 데이터의 분포와 Target 값과의 관계 분석
+  - 범주형 데이터: 데이터 분포(바 그래프), Target 값 분포(바 그래프)
+  - 연속형 데이터: 데이터 분포(히스토그램), Target 값 분포(산점도)
+  - 연속형 데이터 간의 상관계수 히트맵
+- 결측치 처리
+  - 80만 개 이상의 결측치가 있는 feature 삭제
+  - 좌표 X, Y가 비어 있는 경우 주소 데이터로 경도와 위도를 채움
+  - 주소:
+    - 시 + 구 + 도로명
+    - 시 + 구 + 동 + 번지
+  - 범주형 데이터: '-'
+  - 기타 값 데이터: 0
 
-- _Describe your EDA process and step-by-step conclusion_
-
-### Feature engineering
-
-- _Describe feature engineering process_
+### Feature Engineering
+- 기존 데이터에서 파생 변수 생성
+- 추가 데이터 사용
 
 ## 4. Modeling
 
-### Model descrition
+### Model Description
+- **모델 정보 및 선택 이유**: LGBM 모델을 사용하며, 성능이 뛰어나기 때문에 선택하였습니다.
 
-- _Write model information and why your select this model_
+### Feature Info
+- **기존 변수**: '시군구', '번지', '아파트명', '전용면적', '계약년월', '계약일', '층', '건축년도', '등기신청일자', '거래유형', '좌표X', '좌표Y', 'target'
+- **추가 변수**: '국내총생산(명목GDP)', '금리', '학원수', '학원생수', '총승객'
+- **파생 변수**: '강남여부', '구', '동', '동_평균_target', '구_평균_target', '연도별평균', '동_년도_평균_target', '연식', '대장아파트_거리', 'bus_distances', 'subway_distances', '평당 가격', '매매 가격 상위 10% 동 여부', '매매 가격 상위 50% 동 여부'
 
 ### Modeling Process
-
-- _Write model train and test process with capture_
+- 모델 학습 및 테스트 과정 설명
 
 ## 5. Result
 
 ### Leader Board
+- **Leaderboard [mid]**
+- **Leaderboard [final]**
 
-- _Insert Leader Board Capture_
-- _Write rank and score_
+**순위 및 점수**: Write rank and score
 
 ### Presentation
+- [Presentation File](insert-your-presentation-file-link.pdf)
 
-- _Insert your presentaion file(pdf) link_
+### Etc
 
-## etc
+#### Meeting Log
+- [Meeting Log](https://www.notion.so/Regression-dacd070d20764a4a84cb70eb670f4205?pvs=4)
+- [Meeting Log](https://www.notion.so/220c1f424a7c46daadb28d11bd2ad2a2?pvs=4)
 
-### Meeting Log
-
-- _Insert your meeting log link like Notion or Google Docs_
-
-### Reference
-
-- _Insert related reference_
+## Reference
+- Insert related references
