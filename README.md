@@ -1,6 +1,11 @@
-# Title (Please modify the title)
-
+# House Price Prediction | 아파트 실거래가 예측
+<style>
+  .small-text {
+    font-size: 8pt;
+  }
+</style>
 ## Team
+
 <table>
   <tr>
     <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/cc00f390-3789-4a05-8ace-035760a1df3f" width="200" ></td>
@@ -111,7 +116,8 @@ $$
 **순위 및 점수**: 최종 결과 12등 RMSE: 28295.7401
 
 ### Presentation
-- [Presentation File](insert-your-presentation-file-link.pdf)
+[ml2 presentation.pdf](https://github.com/user-attachments/files/16327451/ml2.presentation.pdf)
+
 
 ### Etc
 
