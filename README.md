@@ -1,9 +1,5 @@
 # House Price Prediction | 아파트 실거래가 예측
-<style>
-  .small-text {
-    font-size: 8pt;
-  }
-</style>
+
 ## Team
 
 <table>
@@ -15,11 +11,11 @@
     <td><img src="https://github.com/UpstageAILab3/upstage-ml-regression-ml2/assets/106630911/1b5b877c-eece-4e50-b9a0-a8ec43c36a88" width="200" ></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/UpstageAILab">전은지</a><br class="small-text">팀장, 진행확인, 자료수집, 데이터 EDA, 데이터수집, 모델제안 및 이후결정</td>
-    <td align="center"><a href="https://github.com/UpstageAILab">이수형</a><br class="small-text">데이터수집, Feature Slection, 데이터 EDA, 모델 엔지니어링</td>
-    <td align="center"><a href="https://github.com/UpstageAILab">서정민</a><br class="small-text">데이터수집, 데이터 전처리, ,Feature Selection </td>
-    <td align="center"><a href="https://github.com/UpstageAILab">이지윤</a><br class="small-text">데이터수집, 파생 데이터 생성, 데이터 전처리</td>
-    <td align="center"><a href="https://github.com/UpstageAILab">이승미</a><br class="small-text">데이터수집, 데이터 전처리Feature Slection, 데이터 EDA</td>
+    <td align="center"><a href="https://github.com/UpstageAILab">전은지</a><br>팀장, 진행확인, 자료수집, 데이터 EDA, 데이터수집, 모델제안 및 이후결정</td>
+    <td align="center"><a href="https://github.com/UpstageAILab">이수형</a><br>데이터수집, Feature Slection, 데이터 EDA, 모델 엔지니어링</td>
+    <td align="center"><a href="https://github.com/UpstageAILab">서정민</a><br">데이터수집, 데이터 전처리, ,Feature Selection </td>
+    <td align="center"><a href="https://github.com/UpstageAILab">이지윤</a><br>데이터수집, 파생 데이터 생성, 데이터 전처리</td>
+    <td align="center"><a href="https://github.com/UpstageAILab">이승미</a><br>데이터수집, 데이터 전처리Feature Slection, 데이터 EDA</td>
   </tr>
 </table>
 
